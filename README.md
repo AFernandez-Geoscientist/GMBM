@@ -34,22 +34,24 @@ Pkg.add("CSV")
 Pkg.add("DataFrames")
 Pkg.add("Dates")
 Pkg.add("StatsBase")
-
+```
 Or you can install the Julia project and then dependencies
 
+```julia
 julia --project=.
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
+```
 
 ## Usage
 
 Set up the directory structure: Ensure you have the following directories with the required data files:
 
-*Data_in/Solar_Constant/*
-*Data_in/Climate_data_input/*
-*Data_in/Topo_data/*
-*Data_in/Hypsometry/*
-*Data_in/Coordinates/*
-*Data_in/Optimized_Parameters/*
+- *Data_in/Solar_Constant/*
+- *Data_in/Climate_data_input/*
+- *Data_in/Topo_data/*
+- *Data_in/Hypsometry/*
+- *Data_in/Coordinates/*
+- *Data_in/Optimized_Parameters/*
 
 The example data provides the internal directory structure (see below)
 
@@ -57,7 +59,9 @@ The example data provides the internal directory structure (see below)
 
 Execute the script in Julia. You can use the following command in the terminal:
 
+```julia
 julia --project=. GMBM.jl
+```
 
 ## Review outputs
 
