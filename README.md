@@ -1,8 +1,8 @@
-# Glacier-wide Mass Balance Model from Fernández et al (2024), NPJ Climate and Atmospheric Sciences
+# Glacier-wide Mass Balance Model from Fernández et al (2024), npj Climate and Atmospheric Science
 
 ## Overview
 
-This Julia code implements a model to simulate the mass balance of glaciers over time based on various climate scenarios. The model utilizes temperature, precipitation, and solar radiation data to estimate glacier accumulation and ablation processes.
+This Julia code implements a model to simulate the mass balance of glaciers over time based on various climate scenarios, developed for the paper `Fernández, Manquehual-Cheuque & Somos_Valenzuela (2024): Impact of Solar Radiation Management on Andean glacier-wide surface mass balance, npj Climate and Atmospheric Science, doi: 10.1038/s41612-024-00807-x`. The model utilizes temperature, precipitation, and solar radiation data to estimate glacier accumulation and ablation processes.
 
 ## Features
 
@@ -76,8 +76,8 @@ The results for each glacier zone and experiment will be saved as CSV files in t
 
 ## Example Data
 
-The model is configured to run the Central Andes region (CA, see paper) as an example
+The model is configured to run the Central Andes region (CA, see paper) as an example.
 
 ![Alt text](CA.png)
 
-The data can be downloaded in the following link
+The data can be downloaded in the following link https://doi.org/10.5281/zenodo.13960885
